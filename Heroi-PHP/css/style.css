@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.parte1{
+    text-align: center;
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+    font-family: Georgia;
+    font-size: 80px;
+    background-image:url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parte2{
+ 
+    float: right;
+    background-color: #00509d;
+    width: 50%;
+    height: 100vh;
+}
+
+header{
+    height: 15vh;
+    width: 100vw;
+    background-color: #fdc500;
+}
+
+img{
+    
+    max-width: 400px;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #8ecae6;
+    display: inline-block;
+    margin: 250px;
+
+}
